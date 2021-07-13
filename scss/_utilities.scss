@@ -1,0 +1,14 @@
+.bg {
+  &-dark {
+    background-color: $secondary-color;
+  }
+  &-light {
+    background-color: $light-color;
+  }
+}
+
+.ml {
+  &-2 {
+    margin-left: 2rem;
+  }
+}

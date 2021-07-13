@@ -1,4 +1,6 @@
 @import "abstracts";
+@import "utilities";
+@import "components";
 
 //general settings
 *,
@@ -28,7 +30,7 @@ a {
   text-decoration: none;
   text-transform: uppercase;
   font-family: $primary-font;
-  //color: $light-color;
+  color: $light-color;
 }
 
 ul {
