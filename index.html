@@ -6,7 +6,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/fontawesome-all.css">
+    <link rel="stylesheet" href="./css/owlcarousel/owl.carousel.css">
+    <link rel="stylesheet" href="./css/owlcarousel/owl.theme.default.css">
     <link rel="stylesheet" href="./css/styles.css">
+    
     <title>Game Portal</title>
 </head>
 
@@ -73,7 +76,67 @@
 
     </header>
 
+    <main role="main">
+        <!--Main  Slide-->
+        <div class="main-slider owl-carousel owl-theme">
+            <!--Single  Slide-->
+            <div class="single-slide">
+                <img src="./img/slide1.jpg">
+                <div class="slide-overlay">
+                    <div class="container">
+                        <div class="slide-content">
+                            <h2>GAME PORTAL</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, facere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <!--Single  Slide-->
+            <div class="single-slide">
+                <img src="./img/slide2.png">
+                <div class="slide-overlay">
+                    <div class="container">
+                        <div class="slide-content">
+                            <h2>GAME PORTAL</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, facere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--Single  Slide-->
+            <div class="single-slide">
+                <img src="./img/unnamed.jpg">
+                <div class="slide-overlay">
+                    <div class="container">
+                        <div class="slide-content">
+                            <h2>GAME PORTAL</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, facere.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+    <script src="js/jquery-3.6.0.slim.js"></script>
+    <script src="js/owl.carousel.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            let owl = $(".owl-carousel").owlCarousel({
+                autoplay: false,
+                dots: false,
+                items: 1
+
+
+            });
+        }); 
+    </script> 
 </body>
 
 </html>
